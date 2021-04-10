@@ -5,7 +5,7 @@
   "homepage": "https://uniswap.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v2-core"
+    "url": "git+https://github.com/Uniswap/uniswap-v2-core.git"
   },
   "keywords": [
     "uniswap",
@@ -44,5 +44,18 @@
     "test": "mocha",
     "prepublishOnly": "yarn test"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Uniswap/uniswap-v2-core/issues"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.5.1",
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1"
+  }
 }
